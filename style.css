@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 3.5vw 5vw;
+    background-color: #070707;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.nav h2{
+    color: #CE2B15;
+    letter-spacing: -.5vw;
+}
+
+.nav h3{
+    font-weight: 200;
+}
+
+.n-middle{
+    display: flex;
+    gap: 13vw;
+    
+}
+
+.n-middle a{
+    text-decoration: none;
+}
+
+.n-middle h4{
+    font-weight: 200;
+}
+
+.n-menu{
+    display: flex;
+    gap: 2.5vw;
+}
+
+.mein-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mein-area .l-first{
+    position: relative;
+    z-index: 2;
+}
+
+.mein-area .l-first .top-1 h1{
+    text-transform: uppercase;
+    font-size: 5.7vw;
+    font-weight: 500;
+    line-height: 4.4vw;
+}
+
+
+.mein-area .l-first .top-1{
+    padding: 10vw 0;
+}
+
+.top-1 .w20 {
+    font-size: 1.2vw;
+    font-weight: 300;
+    opacity: .6;
+    padding-right: 5.2vw;
+    text-transform: uppercase;
+    padding-top: .5vw;
+}
+
+.top-1 .flex{
+    display: flex;
+}
+
+
+.top-1 .clo{
+    color: #CE2B15;
+}
+
+.bottom{
+    display: flex;
+    gap: 2vw;
+}
+
+.bottom .imgs{
+    height: 200px;
+    width: 180px;
+    background-color: #CE2B15;
+}
+
+.bottom .imgs img{
+    height: 100%;
+    width: 100%;
+}
+
+.bottom .img-text {
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .img-text h3{
+    text-transform: uppercase;
+    padding: 1.7vw 0;
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.9vw;
+}
+
+.bottom .img-text h5{
+    text-transform: capitalize;
+    font-weight: 300;
+    opacity: .8;
+}
+
+.img-text .year{
+    color: #CE2B15;
+    letter-spacing: -.1vw;
+    font-weight: 400;
+}
+
+.l-middle{
+    height: 540px;
+    width: 320px;
+    background-color: #CE2B15;
+    position: absolute;
+    left: 44%;
+    top: 16%;
+}
+
+.l-middle img{
+    width: 100%;
+    height: 100%;
+}
+
+.l-last{
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.text-last h3{
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 1.9vw;
+}
+
+.text-last h3 span{
+    color: #CE2B15;
+}
+
+.l-last .imges{
+    position: relative;
+    z-index: 99;
+    height: 200px;
+    width: 180px;
+    background-color: #CE2B15;
+}
+.l-last .imges img{
+    width: 100%;
+    height: 100%;
+}
+
+.l-last .ri-text{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-top: 4vw;
+
+}
+
+.ri-text h5{
+    position: relative;
+    font-weight: 200;
+    font-size: 1.3vw;
+}
+
+.ri-text h5:nth-child(1):after {
+    content: "";
+    position: absolute;
+    top: .875vw;
+    left: 4.1vw;
+    width: 5vw;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+
+@media (max-width:740px) {
+
+  
+
+    .mein-area{
+        flex-direction: column;
+    }
+
+    .l-middle {
+        width: 39vw;
+        height: 90vw;
+        margin-left: 7vw;
+    }
+    .l-first{
+        height: 400px;
+        width: 200px;
+    }
+
+    .mein-area .l-first .top-1{
+        padding: 4.5vw 0;
+        margin-top: 1.3vw;
+    }
+ 
+    .main{
+        height: 120vh;
+       
+    }
+    
+    .bottom .imgs{
+        height: 170px;
+        width: 20.1vw;
+    }
+
+    .bottom .img-text h3{
+        text-transform: uppercase;
+        padding: 1vw 0;
+        font-size: 1.9vw;
+        font-weight: 200;
+        line-height: 1.9vw;
+    }
+    
+    .bottom .img-text h5{
+        text-transform: capitalize;
+        font-weight: 200;
+        opacity: .8;
+        font-size: 1.9vw;
+    }
+
+    .n-middle a{
+        font-size: 2vw;
+    }
+
+    .nav h3{
+        font-size: 1.9vw;
+    }
+
+    .nav h2{
+        font-size: 2.2vw;
+    }
+
+    .eng h4{
+        font-size: 1.9vw;
+    }
+
+    .n-middle{
+        gap: 10vw;
+    }
+    .n-middle .n-menu{
+        display: flex;
+        gap: 4vw;
+    }
+
+
+    .top-1 .w20{
+        padding-top: 1vw;
+    }
+
+    .l-middle {
+        position: absolute;
+        left: 49%;
+        top: 13.3%;
+    }
+
+    .l-last{
+        padding-top: 0;
+        gap: .8vw;
+        height: 400px;
+        width: 200px;
+    }
+
+    .imges img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .l-last .imges {
+        height: 170px;
+        width: 20.1vw;
+    }
+
+    .text-last h3{
+        font-size: 1.9vw;
+    }
+
+    .l-last .ri-text{
+        width: 128px;
+        margin-top: 2vw;
+    }
+
+    .ri-text h5:nth-child(1):after {
+        position: absolute;
+        left: 193%;
+        top: 50%;
+    }
+
+    .ri-text h5{
+        font-size: 1.7vw;
+    }
+}
